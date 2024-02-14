@@ -6,5 +6,8 @@ echo 'Welcome to pre-commit git hook with Husky.Net'
 echo 'Clean Project'
 dotnet clean
 
-echo 'Building code'
+echo 'Building Code'
 dotnet build
+
+echo 'Format Code'
+dotnet format
